@@ -54,7 +54,7 @@ p {
 
 .wrapper {
   background: #42A8C0;
-  max-width: 1400px;
+  max-width: 1250px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -235,6 +235,8 @@ p {
   margin-bottom: 20px;
 }
 
+
+
 .main-wrapper .section-title .fas {
   width: 30px;
   height: 30px;
@@ -258,6 +260,8 @@ p {
 }
 
 .main-wrapper .section {
+  max-width: 90%;
+  margin-left: 2em;
   margin-bottom: 60px;
 }
 
@@ -524,7 +528,7 @@ header.is-visible {
   /* Full height */
   height: 100%;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1250px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -593,7 +597,7 @@ header.is-visible {
   position: fixed;
   top: 0;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1250px;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -606,7 +610,7 @@ header.is-visible {
 
 #navbar {
   z-index: 10000;
-  max-width: 1400px;
+  max-width: 1250px;
   overflow: hidden;
 }
 
