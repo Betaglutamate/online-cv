@@ -134,7 +134,7 @@ p {
   margin-bottom: 15px;
 }
 
-.sidebar-wrapper .contact-list .fa {
+.sidebar-wrapper .contact-list .fas .fab {
   margin-right: 5px;
   font-size: 18px;
   vertical-align: middle;
@@ -148,7 +148,7 @@ p {
   margin-bottom: 0;
 }
 
-.sidebar-wrapper .contact-list .email .fa {
+.sidebar-wrapper .contact-list .email .fas {
   font-size: 14px;
 }
 
@@ -235,7 +235,7 @@ p {
   margin-bottom: 20px;
 }
 
-.main-wrapper .section-title .fa {
+.main-wrapper .section-title .fas {
   width: 30px;
   height: 30px;
   margin-right: 8px;
@@ -820,4 +820,8 @@ a.button1:hover {
   .collapse.in{
       display:block !important;
   }
+  }
+
+  .fas, .fab {
+    margin-right: 0.75em;
   }
