@@ -1,0 +1,72 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+{% include head.html %}
+
+<body>
+    <div class="bg">
+
+      <nav id="navbar" class="navbar navbar-default" style="border-bottom: 2px #8ABCC2 solid; width: 100%;
+      max-width: 1400px; box-sizing: content-box; border-radius: 0em 0em 1em 1em" role="navigation">
+        <div class="container-fluid expand-this">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a id="navbar-brand" class="navbar-brand" href="#">Curriculum Vitae</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="#career-profile">Career Profile</a></li>
+              <li><a href="#experience-section">Experience</a></li>
+              <li><a href="#projects-section">Projects</a></li>
+              <li><a href="#publications-section">Publications</a></li>
+              <li><a href="#skills-section">Skills</a></li>
+              <li><a href="#reference-section">References</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav pull-right">
+              <li><a href="assets/documents/20201127_LaTex_CV_Zurbruegg.pdf"><i class="fas fa-file-pdf"></i> Download PDF</a></li>
+              <li><a href="#contact-anchor">Contact Me</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <div class="center">
+        <a href="" class="typewrite" data-period="200"
+          data-type='[ "Hi, Im Mark.", "I Love coding.", "I Love Exploring.", "I Love to Develop.", "Scroll Down to Explore!"]'>
+          <span class="wrap"></span>
+        </a>
+      </div>
+    </div>
+
+  <div class="wrapper">
+    {% include sidebar.html %}
+
+    <div class="main-wrapper">
+
+      {{content}}
+
+    </div>
+    <!--//main-body-->
+  </div>
+
+
+  {% include scripts.html %}
+</body>
+
+</html>
